@@ -66,3 +66,6 @@ Before you can run `so_long`, you'll need to install the MinilibX library. Follo
 
 Clone the `so_long` repository and navigate into the project directory:
 
+```bash
+git clone https://github.com/rh-oussama/so_long.git
+cd so_long
