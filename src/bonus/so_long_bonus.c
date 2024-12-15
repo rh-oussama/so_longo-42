@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   so_long_bonus.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: oussama <oussama@student.42.fr>            +#+  +:+       +#+        */
+/*   By: orhaddao <orhaddao@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/18 11:25:27 by oussama           #+#    #+#             */
-/*   Updated: 2024/02/21 21:24:33 by oussama          ###   ########.fr       */
+/*   Updated: 2024/02/21 21:30:18 by orhaddao         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,7 @@ int	main(int argc, char **argv)
 	check_map(list);
 	game = malloc(sizeof(t_gamesettings));
 	if (!game)
-		return (NULL);
+		return (0);
 	game->game_map = list;
 	init_game_param(game, list);
 	fill_cor(game, list);

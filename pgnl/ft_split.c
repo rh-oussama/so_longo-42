@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: oussama <oussama@student.42.fr>            +#+  +:+       +#+        */
+/*   By: orhaddao <orhaddao@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/06 10:29:01 by orhaddao          #+#    #+#             */
-/*   Updated: 2024/02/21 21:13:37 by oussama          ###   ########.fr       */
+/*   Updated: 2024/02/23 09:17:26 by orhaddao         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -97,9 +97,8 @@ char	**ft_split(char const *s, char c)
 	int		wc;
 	int		i;
 
-	i = 0;
 	i = ft_strlen(s);
-	if (s[i - 1] == '\n')
+	if (s[0] == '\n' || i == 0 || s[i - 1] == '\n')
 		return (NULL);
 	if (!s)
 		return (0);

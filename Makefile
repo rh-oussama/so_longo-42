@@ -21,7 +21,7 @@ $(LIB):
 $(NAME): $(FILES) $(LIB)
 	$(CC) $(FILES) $(LIB) $(FLAGS) -o $(NAME)
 
-$(NAME_B): $(FILES_B) $(LIB) 
+$(NAME_B): $(FILES_B) $(LIB)
 	$(CC) $(FILES_B) $(LIB) $(FLAGS) -o $(NAME_B)
 
 clean:

@@ -27,7 +27,7 @@
 # define PLAYER_SPEED 5
 # define COIN_MAX 5
 # define PLAYER_MAX 6
-# define ENEMY_MAX 7
+# define ENEMY_MAX 3
 
 typedef struct s_position
 {
@@ -139,7 +139,7 @@ typedef struct s_mapinfo
 	char	current_char;
 }	t_mapinfo;
 
-///// CHECK MAP DEMINSIION AND CHECK PLAYER MOVE 
+///// CHECK MAP DEMINSIION AND CHECK PLAYER MOVE
 
 void		backtrack(char ***map_visited, int x, int y, t_back_track **player);
 void		backtrack_coin(char ***map_visited, int x, int y, \
@@ -159,7 +159,7 @@ void		free_positions(t_position *param);
 void		destroy_all_image(t_gamesettings *game);
 void		free_all_game(t_gamesettings *game);
 
-///// READ MAP and LOAD POSITIONS 
+///// READ MAP and LOAD POSITIONS
 
 char		**read_map(char *maps);
 t_position	*ft_lstlast(t_position *lst);
@@ -186,7 +186,7 @@ int			can_move(t_gamesettings *game, int x, int y);
 int			handle_key_press(int keycode, void *param);
 int			close_window(void *param);
 
-//// 
+////
 
 char		**creat_dfs_map(t_mapinfo info);
 void		coin_flip(t_gamesettings *game);

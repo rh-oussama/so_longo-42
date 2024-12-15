@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: oussama <oussama@student.42.fr>            +#+  +:+       +#+        */
+/*   By: orhaddao <orhaddao@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/18 14:47:50 by orhaddao          #+#    #+#             */
-/*   Updated: 2024/02/21 21:11:49 by oussama          ###   ########.fr       */
+/*   Updated: 2024/02/23 09:19:14 by orhaddao         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,7 +71,7 @@ void	*ft_calloc(size_t n, size_t size)
 
 	if (size && SIZE_MAX / size <= n)
 		return (NULL);
-	ptr = malloc(size * n);
+	ptr = malloc((size_t) size * n);
 	if (!ptr)
 		return (NULL);
 	i = 0;

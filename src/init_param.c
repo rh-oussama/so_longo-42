@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   init_param.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: oussama <oussama@student.42.fr>            +#+  +:+       +#+        */
+/*   By: orhaddao <orhaddao@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/19 18:49:10 by orhaddao          #+#    #+#             */
-/*   Updated: 2024/02/21 21:21:47 by oussama          ###   ########.fr       */
+/*   Updated: 2024/02/21 21:29:16 by orhaddao         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,7 +89,7 @@ void	fill_cor(t_gamesettings *game, char **map)
 		{
 			tmp = malloc(sizeof(t_position));
 			if (!tmp)
-				return (NULL);
+				return ;
 			tmp->x = i * 32;
 			tmp->y = y * 32;
 			tmp->type = map[y][i];
