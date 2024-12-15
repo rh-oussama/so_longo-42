@@ -13,7 +13,7 @@ For a visual demonstration of how the `so_long` program works, you can watch the
 
 - **Custom Map Loading**: Supports loading maps in the `.ber` file format, allowing users to design and implement their own game levels.
 - **Player Character**: Navigate a player through the map using keyboard controls.
-- **Ghost Enemies**: Enemies that actively chase the player using AI algorithms.
+- **Ghost Enemies**: Enemies that actively chase the player. If they hit you, you die.
 - **Collectible Items**: Items that can be collected for extra points or gameplay progression.
 - **Animated Sprites**: Includes animated sprites for players, enemies, and objects to enhance the visual appeal.
 - **Game States**: Multiple game states such as:
