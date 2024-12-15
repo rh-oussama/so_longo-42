@@ -62,10 +62,20 @@ Before you can run `so_long`, you'll need to install the MinilibX library. Follo
     sudo cp libmlx.a /usr/lib
     ```
 
-### 2. Clone the Repository
+### 2. Clone the Repository & compile
 
 Clone the `so_long` repository and navigate into the project directory:
 
 ```bash
-git clone https://github.com/rh-oussama/so_long.git
+git clone git@github.com:rh-oussama/so_longo-42.git
 cd so_long
+make
+```
+
+### 3. Run the Game
+
+Once the project is compiled, you can run the game by executing the following command:
+
+```bash
+./so_long <map_path>
+```
