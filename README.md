@@ -16,9 +16,6 @@ For a visual demonstration of how the `so_long` program works, you can watch the
 - **Ghost Enemies**: Enemies that actively chase the player. If they hit you, you die.
 - **Collectible Items**: Items that can be collected for extra points or gameplay progression.
 - **Animated Sprites**: Includes animated sprites for players, enemies, and objects to enhance the visual appeal.
-- **Game States**: Multiple game states such as:
-  - Normal mode
-  - Panic mode, which is triggered by specific events
 - **Cross-Platform Support**: Works on both Linux and MacOS environments.
 - **Graphics & Visuals**: Built using the `minilibx` library, designed to be lightweight and fast.
 
