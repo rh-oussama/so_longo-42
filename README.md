@@ -4,6 +4,11 @@
 
 `so_long` is a 2D game developed as part of the 42 Curriculum, created with the `minilibx` graphics library. This project provides a fun and interactive gaming experience, focusing on custom map generation, dynamic gameplay mechanics, and efficient enemy AI. The game also incorporates visual effects, player movement, and various game states for an enhanced user experience.
 
+## Video Demonstration
+For a visual demonstration of how the `so_long` program works, you can watch the video below:
+
+![](https://github.com/rh-oussama/so_longo-42/blob/main/so_long_demo.gif)
+
 ## 🎮 Features
 
 - **Custom Map Loading**: Supports loading maps in the `.ber` file format, allowing users to design and implement their own game levels.
